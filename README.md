@@ -34,12 +34,12 @@ The goal was simplicity and usability, avoiding complex features per the project
 Below are examples of how the chatbot responds:
 
 ### 1. Order Lookup
-![Order Lookup](screenshots/valid-order-search.png)  
+![Order Lookup](screenshots/valid-order-search.PNG)  
 **Input**: "It's 123456"  
 **Output**: "Thanks! Checking your order status..." → "Your order with ID 123456 is currently: Shipped."
 
 ### 2. Phone Number Check
-![Phone Check](screenshots/valid-phone-search.png)  
+![Phone Check](screenshots/valid-phone-search.PNG)  
 **Input**: "My phone is 9123456789"  
 **Output**: "Thanks! Fetching your orders using the phone number...
 
@@ -50,10 +50,10 @@ Order ID 654321: Status - In Transit
 Order ID 789012: Status - Delivered"
 
 ### 4. Escalate to Agent
-![Agent Testing](screenshots/agent-testing.png)  
+![Agent Testing](screenshots/agent-testing.PNG)  
 
 ### 3. Error Handling
-![Error Handling](screenshots/error-handling.png)  
+![Error Handling](screenshots/error-handling.jpg)  
 **Input**: "blah"  
 **Output**: "Sorry, I didn’t get that. Please enter a valid 6-digit Order ID or phone number."
 
