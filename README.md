@@ -53,22 +53,16 @@ Order ID 789012: Status - Delivered"
 ![Agent Testing](screenshots/agent-testing.png)  
 
 ### 3. Error Handling
-![Error Handling1](screenshots/error1.png)  
+![Error Handling](screenshots/error-handling.png)  
 **Input**: "blah"  
 **Output**: "Sorry, I didn’t get that. Please enter a valid 6-digit Order ID or phone number."
 
-![Error Handling2](screenshots/error2.png) 
-
 **Input**: "999999"  
 **Output**: "Thanks! Checking your order status...
-
 Sorry, we couldn't find that Order ID. Please try again."
 
-![Error Handling3](screenshots/error3.png) 
-
-**Input**: "1234567890"  
+**Input**: "9999999999"  
 **Output**: "Thanks! Fetching your orders using the phone number...
-
 Sorry, we couldn't find any orders using that phone number. Please try again."
 
 ## Notes
