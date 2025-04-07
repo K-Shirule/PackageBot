@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Order Bot</title>
+    <link rel="stylesheet" href="styles.css" /><!-- This contains all the style formatting-->
+  </head>
+  <body>
+    <div id="chat">
+      <div id="state">State: <strong>greet</strong></div><!--This was more for my debugging than for user experience-->
+      <div id="messages">
+        <div class="bot">
+          Hello! Please enter your order ID or phone number.
+        </div>
+      </div>
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Type your message..."
+        style="width: 80%"
+      />
+      <button onclick="handleInput()">Send</button>
+    </div>
+    <script src="script.js"></script><!--This contains all the neccessary functions to parse input and respond to user-->
+  </body>
+</html>
