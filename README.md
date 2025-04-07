@@ -42,8 +42,11 @@ Below are examples of how the chatbot responds:
 ![Phone Check](screenshots/valid-phone-search.png)  
 **Input**: "My phone is 9123456789"  
 **Output**: "Thanks! Fetching your orders using the phone number...
+
 We found 2 order(s) linked to the phone number 9123456789:
+
 Order ID 654321: Status - In Transit
+
 Order ID 789012: Status - Delivered"
 
 ### 4. Escalate to Agent
@@ -57,11 +60,13 @@ Order ID 789012: Status - Delivered"
 ![Error Handling2](screenshots/error2.png) 
 **Input**: "999999"  
 **Output**: "Thanks! Checking your order status...
+
 Sorry, we couldn't find that Order ID. Please try again."
 
 ![Error Handling3](screenshots/error3.png) 
 **Input**: "1234567890"  
 **Output**: "Thanks! Fetching your orders using the phone number...
+
 Sorry, we couldn't find any orders using that phone number. Please try again."
 
 ## Notes
